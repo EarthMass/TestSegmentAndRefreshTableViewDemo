@@ -1,12 +1,13 @@
 # 支持 IOS7+
 # TestSegmentAndRefreshTableViewDemo
 多种功能集成，带Refresh刷新的tableV,Seg分段控件，加载提示toast
-#使用到了\<br> 
-        pod 'HMSegmentedControl' ##分段控件\<br>  
-        pod 'MJRefresh'       ##上下拉刷新 \<br> 
-        pod 'DZNEmptyDataSet' ##空页面  \<br> 
-        pod 'SVProgressHUD'    ##加载中… \<br> 
-        pod 'Toast'            ##Toast提示\<br> 
+#使用到了
+\<br> 
+pod 'HMSegmentedControl' ##分段控件\<br>  
+pod 'MJRefresh'       ##上下拉刷新 \<br> 
+pod 'DZNEmptyDataSet' ##空页面  \<br> 
+pod 'SVProgressHUD'    ##加载中… \<br> 
+pod 'Toast'            ##Toast提示\<br> 
 
 # 图片效果 
 \<br> ![image](https://github.com/EarthMass/TestSegmentAndRefreshTableViewDemo/blob/master/TestSegmentAndRefreshTableViewDemo.gif)
@@ -51,4 +52,4 @@ NSLog(@"seg click %ld",(long)index);
 ```
 
 # 联系我
-        有什么问题，发邮件到(627556038@qq.com) 或者直接 提问题
+      \<br>   有什么问题，发邮件到(627556038@qq.com) 或者直接 提问题
