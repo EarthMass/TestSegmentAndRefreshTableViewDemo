@@ -1,4 +1,4 @@
-#支持 IOS7+
+# 支持 IOS7+
 # TestSegmentAndRefreshTableViewDemo
 多种功能集成，带Refresh刷新的tableV,Seg分段控件，加载提示toast
 #使用到了
@@ -8,12 +8,13 @@ pod 'DZNEmptyDataSet' ##空页面
 pod 'SVProgressHUD'    ##加载中… 
 pod 'Toast'            ##Toast提示
 
-#图片效果
+# 图片效果
 ![image](https://github.com/EarthMass/TestSegmentAndRefreshTableViewDemo/blob/master/TestSegmentAndRefreshTableViewDemo.gif)
 
-#使用
+# 使用
     详见代码如seg
-``` 
+``` Object-C
+//初始化 视图
 NSMutableArray * contentVCArr = [NSMutableArray array];
 for (int i = 0; i < 3; i ++) {
 
@@ -26,8 +27,6 @@ UIViewController * exampleTableVC = [[UIViewController alloc] init];
 exampleTableVC.view.backgroundColor = [UIColor greenColor];
 [contentVCArr addObject:exampleTableVC];
 }
-
-
 
 }
 
@@ -48,7 +47,8 @@ dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), 
 [seg setSegSelect:^(UIViewController *vc, NSInteger index) {
 NSLog(@"seg click %ld",(long)index);
 }];
+
 ```
 
-#联系我
+# 联系我
         有什么问题，发邮件到(627556038@qq.com) 或者直接 提问题
