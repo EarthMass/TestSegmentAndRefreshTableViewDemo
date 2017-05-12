@@ -1,7 +1,7 @@
 # 支持 IOS7+ 
 # TestSegmentAndRefreshTableViewDemo
 多种功能集成，带Refresh刷新的tableV,Seg分段控件，加载提示toast
-#使用到了 
+<br>##使用到了 
 <br> pod 'HMSegmentedControl' ##分段控件
 <br> pod 'MJRefresh'       ##上下拉刷新  
 <br> pod 'DZNEmptyDataSet' ##空页面  
@@ -11,8 +11,8 @@
 # 图片效果 
 \<br> ![image](https://github.com/EarthMass/TestSegmentAndRefreshTableViewDemo/blob/master/TestSegmentAndRefreshTableViewDemo.gif)
 
-# 使用 \<br> 
-    详见代码如seg\<br> 
+# 使用 
+    <br>## 详见代码如seg
 ``` Object-C
 //初始化 视图
 NSMutableArray * contentVCArr = [NSMutableArray array];
