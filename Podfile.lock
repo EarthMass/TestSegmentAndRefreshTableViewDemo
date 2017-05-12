@@ -1,0 +1,24 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - HMSegmentedControl (1.5.3)
+  - MJRefresh (3.1.12)
+  - SVProgressHUD (2.1.2)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - HMSegmentedControl
+  - MJRefresh
+  - SVProgressHUD
+  - Toast
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: cad4d34b5cace341e99c8072856d3acda2368208
+
+COCOAPODS: 1.2.1
