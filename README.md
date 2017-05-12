@@ -9,10 +9,10 @@
 <br> pod 'Toast'            ##Toast提示 
 
 # 图片效果 
-\<br> ![image](https://github.com/EarthMass/TestSegmentAndRefreshTableViewDemo/blob/master/TestSegmentAndRefreshTableViewDemo.gif)
+ ![image](https://github.com/EarthMass/TestSegmentAndRefreshTableViewDemo/blob/master/TestSegmentAndRefreshTableViewDemo.gif)
 
 # 使用 
-    <br>## 详见代码如seg
+## 详见代码如seg
 ``` Object-C
 //初始化 视图
 NSMutableArray * contentVCArr = [NSMutableArray array];
@@ -51,4 +51,4 @@ NSLog(@"seg click %ld",(long)index);
 ```
 
 # 联系我
-      \<br>   有什么问题，发邮件到(627556038@qq.com) 或者直接 提问题
+<br>有什么问题，发邮件到(627556038@qq.com) 或者直接 提问题
