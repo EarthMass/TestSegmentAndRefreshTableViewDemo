@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13DCF0181F95D89B00298740 /* HXSegmentVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DCF0171F95D89B00298740 /* HXSegmentVCView.m */; };
 		43138253DFE01B2839BC1819 /* libPods-TestSegmentAndRefreshTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A61FEC455605FB1628107A /* libPods-TestSegmentAndRefreshTableViewDemo.a */; };
 		4E8766861E9B7757004D6888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8766841E9B7757004D6888 /* Main.storyboard */; };
 		4E8766881E9B7757004D6888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8766871E9B7757004D6888 /* Assets.xcassets */; };
@@ -23,7 +24,6 @@
 		4EAEE9BF1EC1CA51009DBAE3 /* HXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9932BB1EC1BA5D00168C75 /* HXProgressHUD.m */; };
 		4EAEE9C01EC1CA51009DBAE3 /* HXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9932BD1EC1BA5D00168C75 /* HXToast.m */; };
 		4EAEE9C11EC1CA51009DBAE3 /* HXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51B0C11EB9D81F005F6B02 /* HXTableView.m */; };
-		4EAEE9C21EC1CA51009DBAE3 /* HXSegmentVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8766B11E9B9246004D6888 /* HXSegmentVCView.m */; };
 		4EAEE9C31EC1CA51009DBAE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC78C191E9E0D810056EB5F /* ViewController.m */; };
 		4EAEE9C41EC1CA51009DBAE3 /* CustomTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9959EC1EBB260700A068B7 /* CustomTableVC.m */; };
 		4EAEE9C51EC1CA51009DBAE3 /* SegVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9959EF1EBB264000A068B7 /* SegVC.m */; };
@@ -51,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		13D8F0DAF10745DD90615C03 /* Pods-TestSegmentAndRefreshTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-TestSegmentAndRefreshTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSegmentAndRefreshTableViewDemo/Pods-TestSegmentAndRefreshTableViewDemo.release.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
+		13DCF0161F95D89B00298740 /* HXSegmentVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSegmentVCView.h; sourceTree = "<group>"; };
+		13DCF0171F95D89B00298740 /* HXSegmentVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSegmentVCView.m; sourceTree = "<group>"; };
 		47DF5E77F2430EA38D21A5DC /* Pods-TestSegmentAndRefreshTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-TestSegmentAndRefreshTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSegmentAndRefreshTableViewDemo/Pods-TestSegmentAndRefreshTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 		4E51B0C01EB9D81F005F6B02 /* HXTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTableView.h; sourceTree = "<group>"; };
 		4E51B0C11EB9D81F005F6B02 /* HXTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTableView.m; sourceTree = "<group>"; };
@@ -68,8 +70,6 @@
 		4E87669C1E9B7759004D6888 /* TestSegmentAndRefreshTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSegmentAndRefreshTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8766A01E9B7759004D6888 /* TestSegmentAndRefreshTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSegmentAndRefreshTableViewDemoUITests.m; sourceTree = "<group>"; };
 		4E8766A21E9B7759004D6888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E8766B01E9B9246004D6888 /* HXSegmentVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSegmentVCView.h; sourceTree = "<group>"; };
-		4E8766B11E9B9246004D6888 /* HXSegmentVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSegmentVCView.m; sourceTree = "<group>"; };
 		4E9932AA1EC16CCB00168C75 /* icon_refresh_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_refresh_1@2x.png"; sourceTree = "<group>"; };
 		4E9932AB1EC16CCB00168C75 /* icon_refresh_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_refresh_1@3x.png"; sourceTree = "<group>"; };
 		4E9932AC1EC16CCB00168C75 /* icon_refresh_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_refresh_2@2x.png"; sourceTree = "<group>"; };
@@ -120,6 +120,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13DCF0151F95D89B00298740 /* HXSegment */ = {
+			isa = PBXGroup;
+			children = (
+				13DCF0161F95D89B00298740 /* HXSegmentVCView.h */,
+				13DCF0171F95D89B00298740 /* HXSegmentVCView.m */,
+			);
+			path = HXSegment;
+			sourceTree = "<group>";
+		};
 		28ED339DECE8AF0DB0BC8853 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,9 +165,9 @@
 			children = (
 				4E87667E1E9B7757004D6888 /* AppDelegate.h */,
 				4E87667F1E9B7757004D6888 /* AppDelegate.m */,
+				13DCF0151F95D89B00298740 /* HXSegment */,
 				4E9932B61EC1B61E00168C75 /* HXProgressAndToast */,
 				4E8766AF1E9B922D004D6888 /* HXTableView */,
-				4E8766AE1E9B91FF004D6888 /* HXSegment */,
 				4EC78C151E9E0D470056EB5F /* Example */,
 				4E9932A91EC16CC000168C75 /* Resource */,
 				4E8766841E9B7757004D6888 /* Main.storyboard */,
@@ -194,16 +203,6 @@
 				4E8766A21E9B7759004D6888 /* Info.plist */,
 			);
 			path = TestSegmentAndRefreshTableViewDemoUITests;
-			sourceTree = "<group>";
-		};
-		4E8766AE1E9B91FF004D6888 /* HXSegment */ = {
-			isa = PBXGroup;
-			children = (
-				4E8766B01E9B9246004D6888 /* HXSegmentVCView.h */,
-				4E8766B11E9B9246004D6888 /* HXSegmentVCView.m */,
-			);
-			name = HXSegment;
-			path = Segment;
 			sourceTree = "<group>";
 		};
 		4E8766AF1E9B922D004D6888 /* HXTableView */ = {
@@ -459,8 +458,8 @@
 				4EAEE9BF1EC1CA51009DBAE3 /* HXProgressHUD.m in Sources */,
 				4EAEE9C01EC1CA51009DBAE3 /* HXToast.m in Sources */,
 				4EAEE9C11EC1CA51009DBAE3 /* HXTableView.m in Sources */,
-				4EAEE9C21EC1CA51009DBAE3 /* HXSegmentVCView.m in Sources */,
 				4EAEE9C31EC1CA51009DBAE3 /* ViewController.m in Sources */,
+				13DCF0181F95D89B00298740 /* HXSegmentVCView.m in Sources */,
 				4EAEE9C41EC1CA51009DBAE3 /* CustomTableVC.m in Sources */,
 				4EAEE9C51EC1CA51009DBAE3 /* SegVC.m in Sources */,
 				4EAEE9C61EC1CA51009DBAE3 /* ExampleTableVC.m in Sources */,
