@@ -158,7 +158,7 @@
 				4E87667F1E9B7757004D6888 /* AppDelegate.m */,
 				4E9932B61EC1B61E00168C75 /* HXProgressAndToast */,
 				4E8766AF1E9B922D004D6888 /* HXTableView */,
-				4E8766AE1E9B91FF004D6888 /* Segment */,
+				4E8766AE1E9B91FF004D6888 /* HXSegment */,
 				4EC78C151E9E0D470056EB5F /* Example */,
 				4E9932A91EC16CC000168C75 /* Resource */,
 				4E8766841E9B7757004D6888 /* Main.storyboard */,
@@ -196,12 +196,13 @@
 			path = TestSegmentAndRefreshTableViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		4E8766AE1E9B91FF004D6888 /* Segment */ = {
+		4E8766AE1E9B91FF004D6888 /* HXSegment */ = {
 			isa = PBXGroup;
 			children = (
 				4E8766B01E9B9246004D6888 /* HXSegmentVCView.h */,
 				4E8766B11E9B9246004D6888 /* HXSegmentVCView.m */,
 			);
+			name = HXSegment;
 			path = Segment;
 			sourceTree = "<group>";
 		};
