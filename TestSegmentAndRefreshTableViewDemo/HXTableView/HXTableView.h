@@ -26,8 +26,8 @@ typedef NS_ENUM(NSInteger, HXRefreshState) {
 typedef NS_ENUM(NSInteger,HXCanLoadState) {
     
     HXCanLoadNone = 0,/**不支持下拉和加载更多*/
-    HXCanLoadRefresh, /**只支持下拉刷新*/
-    HXCanLoadAll,     /** 同时支持下拉和加载更多*/
+    HXCanLoadRefresh, /**只支持下拉刷新 default*/
+    HXCanLoadAll,     /** 同时支持下拉和加载更多 */
 };
 
 
@@ -48,7 +48,7 @@ typedef NS_ENUM(NSInteger,HXCanLoadState) {
 
 #pragma mark- Refreshing Setting Param
 /** HXTableView 加载支持，默认同时支持下拉和加载更多*/
-@property (nonatomic,assign) IBInspectable HXCanLoadState hxCanLoadState; //HXCanLoadNone
+@property (nonatomic,assign) IBInspectable HXCanLoadState hxCanLoadState; //HXCanLoadRefresh
 @property (nonatomic,strong) IBInspectable NSMutableArray<NSString *> * refreshGifImageArr;
 /**  当前访问的page 下标*/
 @property (nonatomic,assign) NSInteger page; //default 1

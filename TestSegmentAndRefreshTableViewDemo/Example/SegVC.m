@@ -11,6 +11,7 @@
 #import "HXSegmentVCView.h"
 #import "ExampleTableVC.h"
 
+
 #define HX_SEG_SCREEN_WIDTH ([[UIScreen mainScreen]bounds].size.width)
 #define HX_SEG_SCREEN_HEIGHT ([[UIScreen mainScreen]bounds].size.height)
 

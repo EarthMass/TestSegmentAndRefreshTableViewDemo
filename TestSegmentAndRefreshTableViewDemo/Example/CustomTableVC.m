@@ -41,7 +41,7 @@
     
     tableV = [[HXTableView alloc] initWithFrame:tableVFrame style:UITableViewStylePlain];
     
-    tableV.hiddenExtraLine = YES; //default
+//    tableV.hiddenExtraLine = YES; //default
 
 //空页面设置
     tableV.emptyImage = [UIImage imageNamed:@"icon_refresh_1@2x"];
@@ -110,6 +110,8 @@ HX_TABLEVIEW_SepInset(0, 0,tableV)
     
 }
 
+
+#pragma mark- Request simulate
 - (void)requestTest:(HXRefreshState)state {
     
 #warning 正常情况下 都是 一页一页的取数据 如下

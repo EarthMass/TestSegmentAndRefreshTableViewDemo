@@ -119,7 +119,7 @@
     // A little trick for removing the cell separators
     self.tableFooterView = [UIView new];
     
-    self.hxCanLoadState  = HXCanLoadNone;
+    self.hxCanLoadState  = HXCanLoadRefresh;
     self.refreshGifImageArr = nil;
     self.page                           = 1;
     self.pageNum = 10;
