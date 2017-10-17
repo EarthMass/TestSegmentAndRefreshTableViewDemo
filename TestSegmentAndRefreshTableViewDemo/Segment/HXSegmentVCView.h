@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HMSegmentedControl.h"
+//#import "HMSegmentedControl.h"
+#import <HMSegmentedControl/HMSegmentedControl.h>
 
 
 #define HXSegmentDefaultH 40.0f
